@@ -1,0 +1,29 @@
+{
+	"userDB":{
+		"paragraph":{
+			"pgDDLpara":{
+				"sentences":"Are you * teacher Is * Atacama desert in Chile? Is Manhattan in * NY? Is * Ind Oc in India? Is * dog intelligent?",
+    			"answers": [["a","the","-"],["the","-","a"],["-","the","a"],["the","an","-"],["a","the","-"]]
+    		 },
+    		 "pgTIpara":{
+				"sentences":"Are you * teacher Is * Atacama desert in Chile? Is Manhattan in * NY? Is * Ind Oc in India? Is * dog intelligent?",
+				"answers":[["ans1"],["ans2"],["ans3"],["ans4"],["ans5"]]
+    		 }
+    	},
+		"sentence":{
+			"pgDDL":{
+				"sentences":[["Are you * teacher"],["Is * Atacama desert in Chile?"],["Is Manhattan in * NY?"], ["Is * Ind Oc in India?"],["Is * dog intelligent?"]],
+    			"answers": [["a","the","-"],["the","-","a"],["-","the","a"],["the","an","-"],["a","the","-"]]
+    		},
+    		"multichoice":{
+    			"sentences":[["Are you * teacher"],["Is * Atacama desert in Chile?"],["Is Manhattan in * NY?"], ["Is * Ind Oc in India?"],["Is * dog intelligent?"]],
+				"answers":[["ans1","ans2","ans3","ans5"],["ans1","ans2","ans3","ans5"],["ans1","ans2","ans3","ans5"],["ans1","ans2","ans3","ans5"],["ans1","ans2","ans3","ans5"]]
+    		},
+    		"pgTI":{
+    			"sentences":[["Are you * teacher"],["Is * Atacama desert in Chile?"],["Is Manhattan in * NY?"], ["Is * Ind Oc in India?"],["Is * dog intelligent?"]],
+				"answers":[["ans1"],["ans2"],["ans3"],["ans4"],["ans5"]]
+    		}
+    	}
+	}
+}
+
